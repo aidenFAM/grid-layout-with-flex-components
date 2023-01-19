@@ -25,3 +25,8 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+    grid-auto-flow: row;
+    display: grid;
+  }
