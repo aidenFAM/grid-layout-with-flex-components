@@ -24,9 +24,15 @@ body {
   
   .icon {
     font-size: 4rem;
+    display: inline-flex;
   }
 
   .emojis {
-    grid-auto-flow: row;
     display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 18px;
+  }
+
+  p {
+    padding: 15px;
   }
