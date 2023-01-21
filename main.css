@@ -20,6 +20,8 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    display: flex;
+    flex-grow: 8;
   }
   
   .icon {
@@ -30,8 +32,8 @@ body {
 
   .emojis {
     display: grid;
-    grid-template-columns: 40% 40%;
-    grid-gap: 18px;
+    grid-template-columns: 30% 30%;
+    grid-gap: 16px;
   }
 
   p {
