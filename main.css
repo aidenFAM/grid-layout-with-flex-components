@@ -24,7 +24,8 @@ body {
   
   .icon {
     font-size: 4rem;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
   }
 
   .emojis {
